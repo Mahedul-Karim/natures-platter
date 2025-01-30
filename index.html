@@ -8,77 +8,92 @@
   </head>
   <body>
     <header class="bg-gradient-to-b from-white from-0% to-[#EFEBE3] to-100%">
-      <section class="max-container">
-        <nav class="flex items-center justify-between py-[18px]">
-          <img
-            src="images/logo-header.png"
-            alt="Header logo"
-            class="max-w-[100px] md:max-w-[125px] object-cover"
-          />
-          <button class="block md:hidden">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="size-8 text-primary"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-              />
-            </svg>
-          </button>
-          <ul class="hidden md:flex items-center gap-[20px]">
-            <li><a href="#" class="text-dark">Product</a></li>
-            <li><a href="#" class="text-dark">Services</a></li>
-            <li><a href="#" class="text-dark">Contact Us</a></li>
-          </ul>
-          <div class="hidden md:flex items-center gap-3">
-            <button>
+      <section class="border-b md:border-0 border-solid border-primary">
+        <div class="max-container">
+          <nav class="flex items-center justify-between py-[18px]">
+            <img
+              src="images/logo-header.png"
+              alt="Header logo"
+              class="max-w-[100px] md:max-w-[125px] object-cover"
+            />
+            <button class="block md:hidden cursor-pointer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="size-6"
+                class="size-8 text-primary"
               >
                 <path
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
                 />
               </svg>
             </button>
-            <button>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="size-6"
+            <ul class="hidden md:flex items-center gap-[20px]">
+              <li><a href="#" class="text-dark">Product</a></li>
+              <li><a href="#" class="text-dark">Services</a></li>
+              <li><a href="#" class="text-dark">Contact Us</a></li>
+            </ul>
+            <div class="hidden md:flex items-center gap-3">
+              <button class="cursor-pointer">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+                  />
+                </svg>
+              </button>
+              <button class="cursor-pointer">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                  />
+                </svg>
+              </button>
+              <button
+                class="rounded-lg py-[5px] px-4 text-primary border border-solid border-primary cursor-pointer"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
-                />
-              </svg>
-            </button>
-            <button
-              class="rounded-lg py-[5px] px-4 text-primary border border-solid border-primary"
-            >
-              Login
-            </button>
-            <button class="rounded-lg py-[5px] px-4 bg-primary text-white">
-              Register
-            </button>
-          </div>
-        </nav>
+                Login
+              </button>
+              <button
+                class="rounded-lg py-[5px] px-4 bg-primary text-white cursor-pointer"
+              >
+                Register
+              </button>
+            </div>
+          </nav>
+        </div>
+      </section>
+      <section class="max-container pt-16 flex flex-col items-center">
+        <h1 class="text-center font-semibold text-dark text-2xl sm:text-4xl md:text-5xl leading-[1.2] fade-in">
+          Freshness
+          <span class="text-primary">
+            You Can <br />
+            Count </span
+          >On, Prices You&apos;ll Love!
+        </h1>
+        <p class="my-5 text-xs sm:text-base text-dark text-center">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we&apos;ve got you covered every day!</p>
+        <img src="images/hero-vegetables.png" alt="" class="max-w-[650px] object-cover w-full">
       </section>
     </header>
   </body>
