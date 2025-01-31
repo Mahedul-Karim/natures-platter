@@ -14,7 +14,12 @@
             <img
               src="images/logo-header.png"
               alt="Header logo"
-              class="max-w-[100px] md:max-w-[125px] object-cover"
+              class="max-w-[100px] md:max-w-[125px] object-cover hidden md:block"
+            />
+            <img
+              src="images/logo-small.png"
+              alt="Header logo"
+              class="max-w-[100px] md:max-w-[125px] object-cover md:hidden block"
             />
             <button class="block md:hidden cursor-pointer">
               <svg
@@ -85,16 +90,87 @@
         </div>
       </section>
       <section class="max-container pt-16 flex flex-col items-center">
-        <h1 class="text-center font-semibold text-dark text-2xl sm:text-4xl md:text-5xl leading-[1.2] fade-in">
+        <h1
+          class="text-center font-semibold text-dark text-2xl sm:text-4xl md:text-5xl leading-[1.2] fade-in"
+        >
           Freshness
           <span class="text-primary">
             You Can <br />
             Count </span
           >On, Prices You&apos;ll Love!
         </h1>
-        <p class="my-5 text-xs sm:text-base text-dark text-center">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we&apos;ve got you covered every day!</p>
-        <img src="images/hero-vegetables.png" alt="" class="max-w-[650px] object-cover w-full">
+        <p class="my-5 text-xs sm:text-base text-dark text-center">
+          Shop your daily essentials at unbeatable prices. From fresh produce to
+          pantry <br />
+          staples, we&apos;ve got you covered every day!
+        </p>
+        <img
+          src="images/hero-vegetables.png"
+          alt=""
+          class="max-w-[650px] object-cover w-full"
+        />
       </section>
     </header>
+    <main>
+      <section class="max-container py-20">
+        <h2 class="text-primary font-semibold text-2xl">Services</h2>
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4 mt-9">
+          <figure
+            class="bg-secondary p-7 flex flex-col items-center rounded-2xl gap-3 h-full"
+          >
+            <div
+              class="size-[80px] grid place-items-center bg-white rounded-full"
+            >
+              <img
+                src="images/service.png"
+                alt=""
+                class="max-w-[55px] object-cover"
+              />
+            </div>
+            <h3 class="text-lg font-semibold">24/7 Services</h3>
+            <p class="text-sm text-dark text-center max-w-[270px] font-light">
+              Enjoy round-the-clock service! We're here 24/7 to meet your needs
+              anytime, anywhere.
+            </p>
+          </figure>
+          <figure
+            class="bg-secondary p-7 flex flex-col items-center rounded-2xl gap-3 h-full"
+          >
+            <div
+              class="size-[80px] grid place-items-center bg-white rounded-full"
+            >
+              <img
+                src="images/delivery.png"
+                alt=""
+                class="max-w-[55px] object-cover"
+              />
+            </div>
+            <h3 class="text-lg font-semibold">Fast Delivery</h3>
+            <p class="text-sm text-dark text-center max-w-[270px] font-light">
+              Anytime, anywhere.Order now, enjoy fresh produce delivered to your
+              door in minutes.
+            </p>
+          </figure>
+          <figure
+            class="bg-secondary p-7 flex flex-col items-center rounded-2xl gap-3 h-full"
+          >
+            <div
+              class="size-[80px] grid place-items-center bg-white rounded-full"
+            >
+              <img
+                src="images/healthy.png"
+                alt=""
+                class="max-w-[55px] object-cover"
+              />
+            </div>
+            <h3 class="text-lg font-semibold">Healthy Products</h3>
+            <p class="text-sm text-dark text-center max-w-[270px] font-light">
+              Nourish your body with the freshest, most nutritious veggies. 🥦
+              Grow your health with every bite!
+            </p>
+          </figure>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
