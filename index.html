@@ -533,7 +533,9 @@
               />
             </div>
           </div>
-          <div class="bg-tertiary rounded-xl p-3 sm:p-7 grid grid-cols-2 sm:grid-cols-[0.6fr_0.4fr]">
+          <div
+            class="bg-tertiary rounded-xl p-3 sm:p-7 grid grid-cols-2 sm:grid-cols-[0.6fr_0.4fr]"
+          >
             <div class="flex flex-col gap-5 justify-center">
               <div>
                 <img
@@ -810,19 +812,78 @@
         </div>
       </section>
       <section class="pt-20 relative z-[1]">
-        <div class="bg-secondary rounded-2xl py-10 px-4 sm:px-13 max-container grid md:grid-cols-2 gap-3">
-          <img src="images/vegetable-busket.png" alt="" class="max-h-[200px] sm:max-h-[300px] object-cover justify-self-center">
+        <div
+          class="bg-secondary rounded-2xl py-10 px-4 sm:px-13 max-container grid md:grid-cols-2 gap-3"
+        >
+          <img
+            src="images/vegetable-busket.png"
+            alt=""
+            class="max-h-[200px] sm:max-h-[300px] object-cover justify-self-center"
+          />
           <div class="flex flex-col gap-3 justify-center items-center">
-            <h3 class="font-semibold text-xl sm:text-2xl text-primary md:text-dark">Get Grocery News!</h3>
-            <p class="text-dark text-center sm:text-base text-sm">Exclusive training tips, ticks, product deals and more.</p>
-            <input type="text" placeholder="Enter Email..." class="p-3 bg-white w-full placeholder:text-gray-400 placeholder:text-sm rounded-lg focus:outline-0">
+            <h3
+              class="font-semibold text-xl sm:text-2xl text-primary md:text-dark"
+            >
+              Get Grocery News!
+            </h3>
+            <p class="text-dark text-center sm:text-base text-sm">
+              Exclusive training tips, ticks, product deals and more.
+            </p>
+            <input
+              type="text"
+              placeholder="Enter Email..."
+              class="p-3 bg-white w-full placeholder:text-gray-400 placeholder:text-sm rounded-lg focus:outline-0"
+            />
             <div>
-              <button class="rounded-lg py-[5px] px-4 bg-primary text-white cursor-pointer">Subscribe</button>
+              <button
+                class="rounded-lg py-[5px] px-4 bg-primary text-white cursor-pointer"
+              >
+                Subscribe
+              </button>
             </div>
           </div>
         </div>
         <div class="bg-primary absolute h-[50%] bottom-0 w-full -z-[1]"></div>
       </section>
     </main>
+    <footer class="py-20 bg-primary">
+      <section class="max-container grid gap-8 sm:gap-0 sm:grid-cols-3">
+        <div class="flex flex-col gap-3">
+          <div>
+            <img
+              src="images/logo-footer.png"
+              alt=""
+              class="max-w-[100px] md:max-w-[125px] object-cover"
+            />
+          </div>
+          <p class="text-white text-sm">
+            Discover a world of treats, toys, and essentials handpicked for your
+            furry friends
+          </p>
+        </div>
+        <div class="sm:justify-self-center sm:self-center">
+          <ul class="flex flex-col gap-5">
+            <li>
+              <a href="#" class="text-white text-sm">Product</a>
+            </li>
+            <li>
+              <a href="#" class="text-white text-sm">Services</a>
+            </li>
+            <li>
+              <a href="#" class="text-white text-sm">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="sm:justify-self-end sm:self-end">
+          <p class="text-white text-sm mb-3">Follow Us</p>
+          <div class="flex items-center gap-4">
+            <img src="images/facebook.png" alt="" class="size-6">
+            <img src="images/instagram.png" alt="" class="size-6">
+            <img src="images/linkedin.png" alt="" class="size-6">
+            <img src="images/youtube.png" alt="" class="size-6 mt-2">
+          </div>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
